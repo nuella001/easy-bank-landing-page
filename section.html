@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="easy">easybank</div>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Blog</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div>
+        <button>Request Invite</button>
+      </div>
+    </div>
+    <section class="first">Lorem ipsum dolor sit amet.</section>
+
+    <button
+      type="button"
+      onclick='document.getElementById("easy").innerHTML = "Hello JavaScript!"'
+    >
+      Click Me!
+    </button>
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+      Turn off the light
+    </button>
+
+    <img id="myImage" src="../pic_bulboff.gif" style="width: 100px" />
+
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+      Turn off the light
+    </button>
+    <script src="./index.js"></script>
+  </body>
+</html>
